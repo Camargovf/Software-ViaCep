@@ -3,7 +3,7 @@
 
 <h1 align="center">🎯 Sobre a API</h1>
 
-A API é capaz de realizar as operações para controle de clientes e funcionários e consumir a Api externa (ViaCEP) - verificando a incidência de região.
+A API é capaz de realizar as operações para controle de clientes e funcionários e consumir a Api externa (ViaCEP) - verificando a incidência de cep(região).
 
 <h1 align="center">📦 Desenvolvimento</h1>
 
@@ -49,8 +49,28 @@ $ mvn clean package
  Execute a aplicação em modo de desenvolvimento
 $ javac -nomedoprojeto.jar
 
- O servidor iniciará na porta:8080 - acesse http://localhost:8080 
+ O servidor iniciará na porta:8080 - acesse http://localhost:8080 \
+ 
 ```
+
+<h1 align="center">✔️ Configurando Flyway</h1>
+
+Primeiro coloque o flyway como: false. 
+Após rodar o banco de dados e criar através do Springboot, apenas
+coloque a configuração para: true.
+
+Seus scripts terão migrado!
+
+```
+
+mvn flyway:migrate
+
+```
+
+<div align="center">
+<img src="https://i.postimg.cc/FsCyWP5n/Captura-de-Tela-2022-05-12-s-21-51-20.png" width="700px" />
+</div>
+
 <h1 align="center">✔️ Vericando projeto ON</h1>
 
 A tela da sua aplicação deve estar:
@@ -89,7 +109,7 @@ curl -X GET "http://localhost:8080/adress" -H "accept: /"
 A documentação foi realizada com Swagger com interface amigável para documentação e testes dos endpoints.
 
 <div align="center">
-<img src="https://i.postimg.cc/K8nC8rJf/Captura-de-Tela-2022-05-12-s-13-25-32.png" width="700px" />
+<img src="https://i.postimg.cc/Bn8xdxJZ/Captura-de-Tela-2022-05-12-s-21-52-05.png" width="700px" />
 </div>
 
 
@@ -101,13 +121,17 @@ A documentação foi realizada com Swagger com interface amigável para document
 
 - `Funcionalidade 3` `consumirEndereço`: Utiliza api externa ViaCep.
 
-- `Funcionalidade 4` `listaNome`: Lista um funcionário por nome.
+- `Funcionalidade 4` `listafuncionario`: Lista um funcionário por id.
 
-- `Funcionalidade 5` `listaMatricula`: Lista um funcionário por matrícula.
+- `Funcionalidade 5` `listacliente: Lista um funcionário por id.
 
-- `Funcionalidade 6` `atualizarFuncionario`: Atualiza os dados refentes: funcionário.
+- `Funcionalidade 6` `paginasfuncionario`: Lista um funcionário com a quantidade de páginas e quantidade de itens de cada página.
 
-- `Funcionalidade 7` `desligarFuncionario`: Exclui um funcionário do sistema.
+- `Funcionalidade 7` `atualizarFuncionario`: Atualiza os dados refentes: funcionário.
+
+- `Funcionalidade 8` `desligarFuncionario`: Exclui um funcionário do sistema.
+- 
+- `Funcionalidade 9` `verificaocorrencias`: Verifica a incidências de cep iguais no sistema.
 
 
 <h1 align="center">🛠️ Construído com as tecnologias  </h1>
