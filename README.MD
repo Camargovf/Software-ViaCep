@@ -96,7 +96,7 @@ curl -X GET "http://localhost:8080/funcionarios" -H "accept: /"
 
 
 ```
-<h3> CURL - Adress (endereço(</h3>
+<h3> CURL - Adress (endereço)</h3>
 
 ```
 
