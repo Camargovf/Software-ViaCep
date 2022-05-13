@@ -163,9 +163,6 @@ A documentação foi realizada com Swagger com interface amigável para document
 4. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "atualização"`
 5. Envie as suas alterações: `git push origin nomedoarquivo`
 
-<h1 align="center">🎁 Considerações Finais</h1>
-
-* A todos que diariamente me permitem desenvolver.
 
  <h1 align="center">✒️  Desenvolvedor </h1>
 
