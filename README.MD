@@ -34,7 +34,7 @@ sudo apt install openjdk-11-jre-headless
 bash
 
  Clone este repositório
-$ git clone https://github.com/Camargovf/RestAPi-ViaCep
+$ git clone https://github.com/Camargovf/Software-ViaCep
 
  Acesse a pasta do projeto no terminal/cmd
 $ cd README-nomeprojeto
