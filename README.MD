@@ -1,4 +1,4 @@
-<img src="http://rafaelcastro.com.br/wp-content/uploads/2020/05/viacep.png" width="950px" alt="ViaCep" class="center">
+<img src="https://repository-images.githubusercontent.com/192820765/1b491600-9406-11e9-8eca-5af229e5d514" width="950px" alt="ViaCep" class="center">
 
 
 <h1 align="center">🎯 Sobre a API</h1>
